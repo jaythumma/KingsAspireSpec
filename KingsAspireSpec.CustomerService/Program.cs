@@ -39,7 +39,6 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
-
 app.MapDefaultEndpoints();
 
 app.Run();
