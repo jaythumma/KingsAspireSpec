@@ -12,5 +12,4 @@ builder.AddProject<Projects.KingsAspireSpec_Web>("webfrontend")
     .WaitFor(cache)
     .WithReference(customerService)
     .WaitFor(customerService);
-
 builder.Build().Run();
