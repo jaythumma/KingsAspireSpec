@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="KingsAspireSpec.ApiService/KingsAspireSpec.ApiService.csproj" />
+  <Project Path="KingsAspireSpec.CustomerService/KingsAspireSpec.CustomerService.csproj" />
   <Project Path="KingsAspireSpec.AppHost/KingsAspireSpec.AppHost.csproj" />
   <Project Path="KingsAspireSpec.ServiceDefaults/KingsAspireSpec.ServiceDefaults.csproj" />
   <Project Path="KingsAspireSpec.Tests/KingsAspireSpec.Tests.csproj" />

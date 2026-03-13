@@ -2,7 +2,7 @@ var builder = DistributedApplication.CreateBuilder(args);
 
 var cache = builder.AddRedis("cache");
 
-var apiService = builder.AddProject<Projects.KingsAspireSpec_ApiService>("apiservice")
+var customerService = builder.AddProject<Projects.KingsAspireSpec_CustomerService>("customerservice")
     .WithHttpHealthCheck("/health");
 
 builder.AddProject<Projects.KingsAspireSpec_Web>("webfrontend")
@@ -10,7 +10,7 @@ builder.AddProject<Projects.KingsAspireSpec_Web>("webfrontend")
     .WithHttpHealthCheck("/health")
     .WithReference(cache)
     .WaitFor(cache)
-    .WithReference(apiService)
-    .WaitFor(apiService);
+    .WithReference(customerService)
+    .WaitFor(customerService);
 
 builder.Build().Run();
