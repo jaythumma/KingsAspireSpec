@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KingsAspireSpec.ApiService\KingsAspireSpec.ApiService.csproj" />
+    <ProjectReference Include="..\KingsAspireSpec.CustomerService\KingsAspireSpec.CustomerService.csproj" />
     <ProjectReference Include="..\KingsAspireSpec.Web\KingsAspireSpec.Web.csproj" />
   </ItemGroup>
 
