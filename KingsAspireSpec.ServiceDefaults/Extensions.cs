@@ -17,6 +17,7 @@ namespace KingsAspireSpec.ServiceDefaults;
 // To learn more about using this project, see https://aka.ms/dotnet/aspire/service-defaults
 public static class Extensions
 {
+
     private const string HealthEndpointPath = "/health";
     private const string AlivenessEndpointPath = "/alive";
 
